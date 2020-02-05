@@ -35,15 +35,14 @@
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for site -->
     <link rel="stylesheet" href="boot.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
-    <!-- typing effect js -->
-    
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Devicon stylesheet --> 
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -102,6 +101,67 @@
             <h1 class="wave" alt="waving hand">👋</h1>
             <hr class="divider"> 
           </div> 
+        </div>
+        <div id="professionalSummary" class="container summary">
+          <h1>Professional Summary</h1>
+          <br>
+          <h3 class="summaryText">Service-oriented Web Developer, with 3 year background in wordpress development. 
+              Core competencies include programming, troubleshooting and adminstering office 365 
+              enviroments including sharepoint, powerapps, power automate and microsoft azure,
+              as well excellent communication and time-management skills. 
+              Handles tasks with accuracy and efficiency
+          </h3>
+          <hr class="divider">
+        </div>
+        <div class="container skills" id="skills">
+          <h1>Skills</h1>
+          <br>
+          <div class="row">
+            <div class="col">
+              <ul class="column1">
+                <li><h2>HTML5<i class="devicon-html5-plain"></i></h2></li>
+                <li><h2>CSS3<i class="devicon-css3-plain"></i></h2></li>
+                <li><h2>PHP<i class="devicon-php-plain"></i></h2></li>
+                <li><h2>Javascript<i class="devicon-javascript-plain"></i></h2></li>
+                <li><h2>Python<i class="devicon-python-plain"></i></h2></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="column2">
+                <li><h2>Critical Thinking<i class="devicon-html5-plain"></i></h2></li>
+                <li><h2>Active Listening<i class="devicon-css3-plain"></i></h2></li>
+                <li><h2>Problem Solving<i class="devicon-php-plain"></i></h2></li>
+                <li><h2>Communication<i class="devicon-javascript-plain"></i></h2></li>
+                <li><h2>Vendor Management<i class="devicon-python-plain"></i></h2></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="divider">
+        </div>
+        <div class="experience container">
+          <h1 class="title">Experience</h1>
+          <br>
+          <h5>Web Developer - April 2016 to Present <b>Roswell IT Sevices Ltd - East Kilbride</b></h5>
+          <br>
+          <ul>
+            <li><h5>Manage all domains and DNS held within the company for 3rd party companies</h5></li>
+            <li><h5>Develop Websites inline with key stakeholders</h5></li>
+            <li><h5>Manage all domains and DNS held within the company for 3rd party companies</h5></li>
+            <li><h5>Develop Websites inline with key stakeholder requirements</h5></li>
+            <li><h5>Maintain and update websites</h5></li>
+            <li><h5>Meet with clients for scoping and update meetings</h5></li>
+            <li><h5>Provide training to clients with regards to use and management</h5></li>
+            <li><h5>Configured and deployed Windows Deployment Server</h5></li>
+            <li><h5>Configure and deployed internal test web server with LAMPP stack</h5></li>
+            <li><h5>Provide 1st/2nd line IT support to clients</h5></li>
+            <li><h5>Test software for internal use</h5></li>
+            <li><h5>Identify problems uncovered by testing or customer feedback, and correct problems or refer problems to appropriate personnel for correction</h5></li>
+            <li><h5>Back up files from web sites to local directories for instant recovery in case of problems,as well as configuring off site backups in case the full server is irrecoverable</h5></li>
+            <li><h5>Manage various company social media accounts</h5></li>
+            <li><h5>Create dashboards and reports from google analytics</h5></li>
+            <li><h5>Writing documentation</h5></li>
+          </ul>
+          <hr class="divider">
         </div>
       </div>
 

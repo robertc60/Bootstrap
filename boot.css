@@ -1,3 +1,30 @@
+/*index.php css*/
+
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+.index{
+    background-color: #3a806c;
+}
+
+.splash {
+    background-color: #00a676;
+    text-align: center;
+    margin: auto;
+    padding: 3em;
+}
+
+.nameForm {
+    margin: 2em 0 0 0 ;
+}
+
+.nameLabel {
+    font-size: 22px;
+}
+
+/*home.php css*/
 html * {
     font-family: 'Raleway', sans-serif;
 }
@@ -33,6 +60,7 @@ html * {
 }
 .navbar{
     background-color: #54575c;
+    z-index: 1;
     
 }
 
@@ -114,7 +142,8 @@ html * {
 	animation-duration: 3.5s;
 	animation-iteration-count: infinite;
 	transform-origin: 70% 70%;
-	display: inline-block;
+    display: inline-block;
+    z-index: 0;
 }
 
 @keyframes wave-animation {
@@ -135,29 +164,15 @@ html * {
     
 }
 
-/*splash.php css*/
-
-
-body, html {
-    height: 100%;
-    display: grid;
+.summary, .skills, .experience{
+    margin: 0 20%;
 }
 
-.index{
-    background-color: #3a806c;
-}
-
-.splash {
-    background-color: #00a676;
+.column1, .column2{
     text-align: center;
-    margin: auto;
-    padding: 3em;
+    list-style-type: none;
 }
 
-.nameForm {
-    margin: 2em 0 0 0 ;
-}
-
-.nameLabel {
-    font-size: 22px;
+#skills{
+    text-align: center;
 }

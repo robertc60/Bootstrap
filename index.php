@@ -42,11 +42,10 @@
 
   <body class="index">
     <div class="splash">
-        <h1>Hi, new here? Who are you?</h1>
+        <h1>I haven't seen you before, Whats your name?</h1>
         <form class="nameForm" action="home.php" method="post">
             <div class="form-group">
-                <label for="nameInput" class="nameLabel">First Name</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="What's your Name" aria-describedby="name">
+                <input type="text" name="name" class="form-control" id="name" placeholder="" aria-describedby="name">
             </div>
             <button type="submit" class="btn btn-primary">Proceed</button>
         </form>
