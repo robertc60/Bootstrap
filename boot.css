@@ -1,0 +1,99 @@
+html * {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-logo {
+    width: 80%;
+    height: auto;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 128px;
+    color: white;
+    display: block;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.img-with-text img {
+    display: block;
+    margin-left: 1.5em;
+    
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.menu{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.navbar{
+    background-color: #54575c;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2a2d34!important;
+}
+
+.nav-link:hover {
+    color: #00a676!important;
+}
+
+.navbar-nav>li {
+    list-style-position: inside;
+    border: 2px solid #2a2d34;
+    background-color: #00a676;
+    color: black;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.navbar-nav>li:hover {
+    list-style-position: inside;
+    border: 2px solid #00a676;
+    background-color: #54575c;
+    color: black;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.typing-span{
+    color: white;
+    width: 100%;
+}
+
+.typing-span>h3, .typing-span>h4 {
+    text-align: center;
+}
+.typing{
+    text-align: center;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.stick + .content {
+    padding-top: 60px;
+}
+
+.g-drop{
+    padding: 1em;
+}
+
+#drop-arrow{
+    float: right;
+}
+
+.headerImage {
+    width: 100%;
+    height: auto;
+}
