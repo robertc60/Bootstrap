@@ -1,19 +1,7 @@
+<?php session_start() ?>
 <!doctype html>
 <html lang="en">
   <head>
-
-    <style>
-      .async-hide{
-        opacity: 0!important;
-      }
-    </style>
-
-    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-    })(window,document.documentElement,'async-hide','dataLayer',4000,
-    {'GTM-MR44ZGZ':true});</script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,56 +40,22 @@
   </head>
 
 
-  <body>
-
-    <nav class="navbar navbar-expand-lg" id="navbar">
-       <div class="img-with-text">
-          <a class="navbar-brand" href="#"><img src="static/logo.png" class="navbar-logo" alt="Yellow play button"></a>
-       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="flase" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <span class="typing-span">
-        <h3 class="typing">Robert Clarkson</h3>
-        <h4 class="typing">Aspiring <span id="word"></span></h4>
-      </span>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav menu">
-          <li class="nav-item active">
-            <a class="nav-link g-drop" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link g-drop" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link g-drop" href="#" id="navbarDropdown" role="button" " aria-haspopup="true" aria-expanded="flase">
-              Dropdown<i class="material-icons" id="drop-arrow">arrow_drop_down</i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another Action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Another Action Still</a>
+  <body class="index">
+    <div class="splash">
+        <h1>Hi, new here? Who are you?</h1>
+        <form class="nameForm" action="home.php" method="post">
+            <div class="form-group">
+                <label for="nameInput" class="nameLabel">First Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="What's your Name" aria-describedby="name">
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link g-drop" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-      <div class="content">
-        <div class="banner">
-          <img src="static/home-banner.jpg" alt="Developer's desk" class="headerImage">
-        </div>
-        <div class="page container">
-          <div class="hi">
-            <h1 class="greeting">Hi!</h1>
-            <h1 class="wave" alt="waving hand">👋</h1>
-            <hr class="divider"> 
-          </div> 
-        </div>
-      </div>
+            <button type="submit" class="btn btn-primary">Proceed</button>
+        </form>
+    </div>
+    
+    <?php 
+      global $name;
+      $name = $_POST['name']
+    ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
